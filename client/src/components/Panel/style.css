@@ -1,0 +1,8 @@
+.panel {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(207, 104, 104);
+  border-width: 1px;
+  background: rgba(0, 0, 0, 0.8);
+}
+

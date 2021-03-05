@@ -1,0 +1,49 @@
+{
+  "name": "going-platinum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "firebase": "^8.2.7",
+    "firebase-admin": "^9.5.0",
+    "firebase-tools": "^9.4.0",
+    "if-env": "^1.0.4",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.3.16",
+    "nes.css": "^2.3.0",
+    "node-sass": "^4.14.1",
+    "react-bootstrap": "^1.5.0",
+    "react-document-title": "^2.0.3",
+    "react-icons": "^4.2.0",
+    "react-scroll": "^1.8.1",
+    "request": "^2.88.2",
+    "spotify-web-api-node": "^5.0.2",
+    "styled-components": "^5.2.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

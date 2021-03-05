@@ -1,0 +1,27 @@
+#player-container {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+}
+
+#player-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.player-button-div {
+  display: flex;
+  justify-content: center;
+}
+
+#music-player-div {
+  margin-top: 40px;
+}
+
