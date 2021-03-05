@@ -7,7 +7,7 @@ const axios = require("axios");
 const spotifyApi = new SpotifyWebApi({
   clientId: process.env.CLIENT_ID,
   clientSecret: process.env.CLIENT_SECRET,
-  redirectUri: "http://localhost:3000/callback/",
+  redirectUri: "https://going-platinum-spotify.herokuapp.com/callback",
 });
 let accessToken = "";
 setInterval(() => {
