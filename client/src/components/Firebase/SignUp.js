@@ -27,14 +27,6 @@ const SignUp = () => {
     try {
       const { user } = await auth
         .createUserWithEmailAndPassword(email, password)
-        .then((result) => {
-          console.log(result);
-          API.createUser({
-            email: result.user.email,
-            name: displayName,
-            firebaseId: result.user.uid,
-          }).then(history.push("/profile"));
-        });
       generateUserDocument(user, { displayName });
     } catch (error) {
       var errorCode = error.code;
