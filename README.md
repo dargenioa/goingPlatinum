@@ -18,7 +18,7 @@
 <!-- ![Going-Platinum-homepage]() -->
 
 
-[Going-Platinum Heroku Deploy Link](https://going-platinum.herokuapp.com/)
+[Going-Platinum Heroku Deploy Link](https://going-platinum-spotify.herokuapp.com/)
 
 ## Description
 Modern problems require modern solutions.  This is what we aim to achieve with our latest recreational app.  With time spent at home on the rise due to the covid pandemic, this is a wonderful app to use when working from home or enaging in recreational activities like excericse or gaming.  Going-Platinum allows users to create tasks such as sweeping the floors, time allocated for study, and working out with a randomly generated playlist from spotify based on Artist of choice and Duration.  
